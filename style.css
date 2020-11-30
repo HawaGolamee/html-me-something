@@ -1,0 +1,24 @@
+.whole-page {
+    background-color:rgb(211, 203, 203);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-inline-start: 2px;
+    
+
+
+}
+
+#third-journey {
+    font-size: 20px;
+}
+#second-journey{
+    font-size: 20px;
+}
+#footer {
+    background-color: aqua;
+    font-size: 20px;
+    align-items: center;
+}
+#number{
+    align-content: center;
+}

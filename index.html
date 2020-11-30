@@ -2,15 +2,34 @@
 
 <html>
    <head>
+   
+     <link rel="stylesheet" type="text/css" href= " style.css"/>
       <title>first Web Page
       </title>
    </head>
   <body>
-   <main>
-       <header> <img sur=./documents/image2/>
+    <ul><li>
+      <a class= "link" href= "#trip-paragraph">Trip</a>
+      <br>
+    </li>
+
+    <li>
+      <a class= "link" href= "#hobby-paragraph">Hobby</a>
+      <br>
+    </li>
+
+      <li>
+      <a class= "link" href="#resume">Resume</a>
+  </li>
+
+    </ul>
+   <main class= whole-page>
+       <header> 
+         
         <b>Resume</b>
         </header>
-       <div>
+       <div class="Resume" id= "resume">
+        
            <h1>Personal Identity</h1>
            <ul>
            <b>Name:</b> <small>Hawa Golamee</small>
@@ -30,14 +49,14 @@
                &#9830 Currently doing LC101 Coder Program
              </ul>
                     
-                <h3> <b>First Journey of profession / Completion of Associate Degree </b></h3>
+                <h3 > <b>First Journey of profession / Completion of Associate Degree </b></h3>
                 <p3>
                            I was born at  Quetta, Pakistan. I have started my school when I was 7 years old. I have studied at one of the local school of Quetta. 
                         After completing school, I got addmission to one of the local girls college of Quetta. I have just given my final exam of the 2nd year 
                         of college when i received my visa to America. Then, I planed to continue my education at America.
                 </p3> 
                 
-                  <h4> <b>Second journey of profession / Completion of GED</b> </h4>
+                  <h4 id= "second-journey"> <b>Second journey of profession / Completion of GED</b> </h4>
                       <p4>
                               I have arrived to United States on January, 2019. As I have planed I will continue my education, I started to know education system of United states. 
                               I talked to couple of the friends, ESOL teachers. After knowing in order to continue my career further i need to get the school equivalency to get enrolled in any of the Universities.
@@ -45,7 +64,7 @@
                       </p4>
 
                        
-                      <h5><b>Third journey of profession / To complete LC101 Coding Program</b></h5>
+                      <h5 id= "third-journey" ><b>Third journey of profession / To complete LC101 Coding Program</b></h5>
                            <p5>
                                Having my GED, I planed to take ACT test, and join one of the St. Louis universities to purseue my career in the field of IT. Due to this pandamic and that everything were going wierd, 
                                I paused for a while.Then, I heard that LC101 is going to start virtually, considering it as golden opportunity I decided to take this  course. Now I am doing my best to complete this 
@@ -53,19 +72,23 @@
 
                             </p5>
          </div>
+         
 
            <arti>
-                <section class= "trip" id= "trip-paraghraph">
-                      <h1> A life changing trip to United states</h1>
-                        <p>
+                <section class= "trip" id= "trip-paragraph">
+                      <h1 id= "trip-heading" > A life changing trip to United states</h1>
+                      
+                          <image width="400px" src= "/Users/hawagolamee/Documents/image2/Unknown.jpg"></image>
+                          <p>
                            I arrived in St. Louis, Missouri, United States on January 2019. It is almost going to be two years. I learned a new way of living life. I come to know new cultures, new education system, and many other new things. 
                            The most I like of here is that the people are friendly and kind. Here people support and work hard to build up their society. Moreover, St. Louis has many beautiful places like Botnical Garden, Arch, and many good 
                            local and State parks for picnic points. 
                         </p>
                 </section>
 
-                 <section class = "hobby" id= "hobby-paraghraph">
-                    <h1><b>Hobby / The activity of plasure </b></h1>
+                 <section class = "hobby" id= "hobby-paragraph">
+                    <h1 id= "hobby-heading"><b>Hobby / The activity of plasure </b></h1>
+                    <image width="400px" src="/Users/hawagolamee/Documents/image2/20191219170611-GettyImages-1152794789.jpg"></image>
                       <p>
                          Being in viraity of activities, my activity of plasure is reading book, listing to ted talks, and going for a walk. I have the following hobbies because they give me 
                          the plasure of being myself for a while.I enjoy reading and ted talks as they give me motivation and knowledge that help to live the life. Walking activity is a peaceful and healthy acitivity for me. 
@@ -77,9 +100,7 @@
             </arti>
       </main>
       <footer>
-        <a class= "link" href= "#trip-paraghraph">Trip</a>
-        <a class= "link" href= "#hobby-paraghraph">Hoppy</a>
-         <span>1</span>
+        <a id = "footer" class= "link" href= "#resume" role="botton">top of the page</a>
       </footer>
   </body>
 </html>
