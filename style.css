@@ -7,12 +7,17 @@
 
 
 }
+p {
+    align-content: flex-start;
+}
 
 #third-journey {
     font-size: 20px;
+    font-style: bold;
 }
 #second-journey{
     font-size: 20px;
+    text-decoration: bold;
 }
 #footer {
     background-color: aqua;
