@@ -1,15 +1,12 @@
+
 .whole-page {
     background-color:rgb(211, 203, 203);
     margin-left: 20px;
     margin-right: 20px;
     padding-inline-start: 2px;
-    
+ 
+} 
 
-
-}
-p {
-    align-content: flex-start;
-}
 
 #third-journey {
     font-size: 20px;
@@ -22,8 +19,11 @@ p {
 #footer {
     background-color: aqua;
     font-size: 20px;
-    align-items: center;
+    text-align: center;
 }
 #number{
     align-content: center;
+}
+ p {
+    text-align: center;
 }
